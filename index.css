@@ -1,0 +1,139 @@
+body {
+  background-color: #c5e4e7;
+  margin: 0;
+  padding: 0;
+  font-family: 'Oswald', sans-serif;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+  border-radius: 20px;
+}
+
+.header {
+  margin-bottom: 20px;
+  font-size: 12px;
+  line-height: 0.5;
+  color: #416466;
+  font-weight: 200;
+}
+.content {
+  background-color: #ffffff;
+  width: 60%;
+  height: 62vh;
+  border-radius: 20px;
+  position: relative;
+}
+
+.right {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  background-color: #00474b;
+  width: 45%;
+}
+
+.amount,
+.total {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #24c4ad;
+  font-size: 16px;
+  font-weight: 200;
+  margin: 20px 30px 0;
+}
+
+.person {
+  font-size: 10px;
+  color: #528286;
+}
+p {
+  color: #defcfe;
+}
+
+.numbers {
+  font-size: 28px;
+  font-weight: 900;
+  margin-top: 15px;
+}
+
+.reset {
+  margin: 150px 30px 10px 30px;
+  border-radius: 5px;
+  background-color: #24c4ad;
+  color: #06595a;
+  font-weight: 800;
+  font-size: 14px;
+  padding: 10px 0;
+  border: none;
+}
+
+.left {
+  width: 45%;
+  position: absolute;
+  left: 30px;
+  top: 15px;
+  bottom: 15px;
+  border-radius: 15px;
+  padding-left: 5px;
+}
+
+h3 {
+  color: #687677;
+  font-weight: 400;
+}
+
+.bill-num,
+.number-of-people {
+  background-color: #f3f8fb;
+  color: #044145;
+  display: block;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  border: none;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px;
+  margin-bottom: 30px;
+}
+
+.buttons button {
+  border-radius: 5px;
+  border: none;
+  box-shadow: none;
+  padding-top: 5px;
+  padding: 15px 0px 15px 0px;
+  background-color: #00474b;
+  font-size: 18px;
+  font-weight: 700;
+  color: #defcfe;
+}
+
+.buttons button.active {
+  background-color: #26c2ad;
+  color: #06595a;
+}
+
+.buttons button.disabled {
+  background-color: #f3f7fb;
+  font-weight: bold;
+  color: #5f7875;
+}

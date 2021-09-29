@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Mohamed's Calculator</title>
+  </head>
+  <body>
+    <div class="card">
+      <div class="header">
+        <h1 class="sp">SPLI</h1>
+        <h1 class="tt">TTER</h1>
+      </div>
+      <div class="content">
+        <div class="right">
+          <div class="amount">
+            <p>
+              Tip Amount <br />
+              <span class="person">/ Person</span>
+            </p>
+            <label class="numbers" for="numbers"> $ 4.27 </label>
+          </div>
+          <div class="total">
+            <p>
+              Total <br />
+              <span class="person">/ Person</span>
+            </p>
+            <label class="numbers" for="numbers">$ 32.79</label>
+          </div>
+          <button class="reset" active type="submit">RESET</button>
+        </div>
+
+        <!-- left -->
+
+        <div class="left">
+          <div class="row1">
+            <h3>Bill</h3>
+            <label class="bill-num" for="bill"
+              ><img class="dollar" src="./images/icon-dollar.svg" alt="" />
+              142.55</label
+            >
+          </div>
+          <div class="tips">
+            <h3>Select Tip %</h3>
+            <div class="buttons">
+              <button>5%</button>
+              <button>10%</button>
+              <button class="active">15%</button>
+              <button>25%</button>
+              <button>50%</button>
+              <button class="disabled">Custom</button>
+            </div>
+          </div>
+          <div class="num-people">
+            <h3>Number of Poeple</h3>
+            <label class="number-of-people" for="number-of-people">
+              <img class="person" src="./images/icon-person.svg" alt="" /> 5
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
